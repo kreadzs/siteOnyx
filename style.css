@@ -1,0 +1,123 @@
+#title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #00aaff;
+    background: linear-gradient(45deg, #003bfe, #2ecae5, #70ff03);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 2rem;
+  }
+  
+  #sub {
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+    color: #666;
+    margin-top: 1rem;
+  }
+  
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #373737;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  /* Добавляем отступ сверху для основного содержимого */
+  main {
+    padding-top: 70px;
+  }
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+ol {
+    list-style: none;
+    counter-reset: rule;
+  }
+  
+  ol li {
+    position: relative;
+    counter-increment: rule;
+    margin: 0 0 20px 30px;
+    padding-left: 30px;
+  }
+  
+  ol li::before {
+    content: counter(rule);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #27df96;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .gradient-text{
+    background: linear-gradient(45deg, #ff8a00, #e52e71, #6610f2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  #b1 {
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0.9;
+    padding: 20px;
+    position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  max-width: 750px;
+  width: 100%;
+
+    font-size: larger;
+    font-family: 'SF Pro Text', sans-serif;
+    width: 750px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
